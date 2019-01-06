@@ -4,6 +4,17 @@ body {
     height: 100vh;
 }
 
-a {
+a, 
+a:visited {
     color: #363636;
+}
+
+a:hover {
+    color: #292929;
+}
+
+#has-shadow {
+    -webkit-box-shadow: 3px -2px 9px 0px rgba(0,0,0,0.75);
+    -moz-box-shadow: 3px -2px 9px 0px rgba(0,0,0,0.75);
+    box-shadow: 3px -2px 9px 0px rgba(0,0,0,0.75);
 }
